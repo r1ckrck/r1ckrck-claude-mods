@@ -1,0 +1,17 @@
+{
+  "name": "r1ckrck-claude-mods",
+  "description": "Claude Code mods by r1ckrck: a two-line status line and multi-agent awareness.",
+  "owner": { "name": "r1ckrck" },
+  "plugins": [
+    {
+      "name": "roster",
+      "description": "Agents sharing a folder see who else is on, what they have changed and which shared resources they hold.",
+      "source": { "source": "github", "repo": "r1ckrck/roster" }
+    },
+    {
+      "name": "statusline",
+      "description": "A two-line status line: model, effort, folder and git on top; cache, context, usage limits, API time and cost below.",
+      "source": { "source": "github", "repo": "r1ckrck/claude-statusline" }
+    }
+  ]
+}
